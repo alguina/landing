@@ -42,22 +42,54 @@ body{
   text-decoration: underline;
 }
 
-.right a:hover{
-  color: red;
-  text-decoration: underline;
-}
-
 .right a:visited{
   color: #333;
   text-decoration: underline;
 }
 
+.right a:hover{
+
+  text-decoration: none;
+}
+
+.secondTitle{
+  font-size: 40px;
+}
+
+
 .highlight{
   color: #ff0023;
-
   margin-left: 10px;
 }
 
+
+
+svg{
+  background:url('https://alguina.github.io/landing/assets/img/Alejandro_Herrero@1x.jpg');
+  background-size:cover;
+  width:15vmin; height:auto;
+  display:block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+
+}
+text{
+  font-size:10px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 400px;
+}
+
+svg:hover{
+  transition:height .4s ease-in;
+  width:40vmin; height:40vmin;
+}
 
 
 
