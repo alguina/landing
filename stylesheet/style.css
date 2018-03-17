@@ -1,0 +1,71 @@
+/*
+
+Template: werkstatt
+
+*/
+
+
+body{
+  font-family: 'freight-sans-pro', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+  margin: 0;
+  color: white;
+  background-color: #fff;
+}
+
+
+.logo{
+    width: 100%;
+    position: relative;
+    top: 33px;
+    left: 56px;
+    padding-bottom: 60px;
+}
+
+.logo > img {
+  width: 155px;
+}
+
+.contenedor{
+  font-family: 'freight-sans-pro', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+  height: 60vh;
+}
+
+.right{
+  font-size: 12px;
+  /* margin-top: 94px; */
+  margin-top: 6%;
+  text-align: center;
+}
+
+.right a{
+  color: #333;
+  text-decoration: underline;
+}
+
+.right a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.right a:visited{
+  color: #333;
+  text-decoration: underline;
+}
+
+.highlight{
+  color: #ff0023;
+
+  margin-left: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 667px) {
+  .mainTitle{
+    font-size: 40px;
+  }
+  .secondTitle{
+    font-size: 40px;
+  }
+}

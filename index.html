@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+ <!-- Animation inspiration: Aida Delgado -->
+ <html lang="en">
+ <head>
+
+   <meta charset="utf-8">
+   <title>Alejandro Herrero UX/UI Designer</title>
+   <meta name="author" content="Alejandro Herrero">
+   <meta name="url" content="http://alexherreroux.com">
+   <meta name="description" content="Alejandro Herrero UX/UI Portfolio.">
+   <meta name="keywords" content="alex, alejandro herrero, alexherrero, ux, ui, web, designer, madrid, portfolio, digital, design, diseño">
+   <meta name="revisit-after" content="30 days">
+   <meta name="rating" content="general">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+
+  <link href="stylesheet/hover.css" rel="stylesheet" media="all">
+
+   <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+   crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet/estilos.css">
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+   <script>
+   $(function() {
+     $('a[href*="#"]:not([href="#"])').click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html, body').animate({
+             scrollTop: target.offset().top - 110
+           }, 1000);
+           return false;
+         }
+       }
+     });
+   });
+   </script>
+
+   <script src="js/pace/pace.js"></script>
+   <link href="js/pace/themes/pace-theme-flat-top.css" rel="stylesheet" />
+  <link rel="stylesheet"  href="stylesheet/style.css" type="text/css" media="all">
+ </head>
+ <body>
+ <header>
+   <div class="logo">
+     <img  src="assets/img/alex.png" alt="logo">
+   </div>
+   <div class="container-fluid">
+     <div class="row">
+
+       <div class="col-xs-11 col-sm-6 col-md-4">
+
+         <div class="img-intro">
+
+           <div class="intro-layer1">
+             <img src="assets/img/UI.png" alt="" width="100%">
+           </div>
+
+           <div class="intro-layer2">
+             <img src="assets/img/UX.png" alt="" width="100%">
+           </div>
+
+
+
+
+         </div>
+
+       </div>
+
+        <div class="col-xs-12 col-sm-8 col-md-8 right">
+           <p class="mainTitle"><strong>Diseñador<span class="highlight">UX/UI.</span></strong></p>
+           <p class="secondTitle">¿Quieres ver <a href="http://alexherreroux.com">más</a>?</p>
+       </div>
+   </div>
+
+
+
+ </header>
+
+
+
+
+</body>
+
+</html>
